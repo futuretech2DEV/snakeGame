@@ -1,0 +1,29 @@
+.container {
+    margin: auto;
+    margin-top: 20px ;
+    display:flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    border: 1px skyblue dotted;
+    width: 525px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container canvas {
+    margin: 5px;
+}
+
+.titulo {
+    display: flex;
+    background-color: slateblue;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
